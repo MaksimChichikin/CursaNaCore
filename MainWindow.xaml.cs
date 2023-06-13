@@ -76,5 +76,10 @@ namespace CurcaNaCore
         {
             NavigationClass.frmNav.Navigate(new UserPage());
         }
+
+        private void BtnHistoryLog_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationClass.frmNav.Navigate(new HistoryLogPage());
+        }
     }
 }

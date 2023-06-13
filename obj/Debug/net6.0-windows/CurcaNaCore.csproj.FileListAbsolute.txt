@@ -84,3 +84,7 @@ C:\Project\CurcaNaCore\obj\Debug\net6.0-windows\Views\AutorizationWindow.baml
 C:\Project\CurcaNaCore\obj\Debug\net6.0-windows\Views\NewPasswordWindow.baml
 C:\Project\CurcaNaCore\obj\Debug\net6.0-windows\Views\AdminPage\UserPage.g.cs
 C:\Project\CurcaNaCore\obj\Debug\net6.0-windows\Views\AdminPage\UserPage.baml
+C:\Project\CurcaNaCore\obj\Debug\net6.0-windows\Views\AdminPage\AddAdminPage\UserAddWindow.g.cs
+C:\Project\CurcaNaCore\obj\Debug\net6.0-windows\Views\AdminPage\AddAdminPage\UserAddWindow.baml
+C:\Project\CurcaNaCore\obj\Debug\net6.0-windows\Views\AdminPage\HistoryLogPage.g.cs
+C:\Project\CurcaNaCore\obj\Debug\net6.0-windows\Views\AdminPage\HistoryLogPage.baml

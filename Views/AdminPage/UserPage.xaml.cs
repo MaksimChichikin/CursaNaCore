@@ -1,5 +1,6 @@
 ﻿using CurcaNaCore.ClassHelper;
 using CurcaNaCore.Models;
+using CurcaNaCore.Views.AdminPage.AddAdminPage;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -100,7 +101,19 @@ namespace CurcaNaCore.Views.AdminPage
 
         private void BtnAdd_Click(object sender, RoutedEventArgs e)
         {
+            try
+            {
+                UserAddWindow userAddWindow = new UserAddWindow();
+                userAddWindow.ShowDialog();
 
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message.ToString(),
+                    "Критическая ошибка",
+                    MessageBoxButton.OK,
+                    MessageBoxImage.Warning);
+            }
         }
 
         private void BtnEdit_Click(object sender, RoutedEventArgs e)

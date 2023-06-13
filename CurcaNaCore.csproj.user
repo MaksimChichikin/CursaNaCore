@@ -25,6 +25,9 @@
     <Compile Update="Views\AdminPage\AddAdminPage\TaskAddWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\AdminPage\AddAdminPage\UserAddWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\AdminPage\BrandPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -32,6 +35,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\AdminPage\DeliveryPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\AdminPage\HistoryLogPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\AdminPage\OrderPage.xaml.cs">
@@ -75,6 +81,9 @@
     <Page Update="Views\AdminPage\AddAdminPage\TaskAddWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Views\AdminPage\AddAdminPage\UserAddWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Views\AdminPage\BrandPage.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -82,6 +91,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\AdminPage\DeliveryPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\AdminPage\HistoryLogPage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\AdminPage\OrderPage.xaml">

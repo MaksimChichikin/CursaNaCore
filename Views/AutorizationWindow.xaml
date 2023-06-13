@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CurcaNaCore.Views"
         mc:Ignorable="d"
-          Height="150" Width="300"  Title="ЮниКосметик"  WindowStartupLocation="CenterScreen" Icon="/Resource/Imagine/myicon.png">
+          Height="120" Width="200"  Title="ЮниКосметик"  WindowStartupLocation="CenterScreen" Icon="/Resource/Imagine/myicon.png">
     <Grid>
         <StackPanel Width="150" VerticalAlignment="Center" HorizontalAlignment="Center">
             <TextBox  Name="TxbLogin"/>

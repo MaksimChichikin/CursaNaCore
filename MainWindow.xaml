@@ -15,7 +15,7 @@
 
 
         <StackPanel  Grid.Row="1" >
-            <Image Source="./Resource/Imagine/icon.png" Height="70"/>
+            <Image Source="./Resource/Imagine/icon.png" Height="40"/>
             <Button Style="{StaticResource CustomButtonStyle}" Margin="5 10 5 0" Content="Доставки" FontSize="20" Height="30" Click="Button_Click"/>
             <Button Style="{StaticResource CustomButtonStyle}" Content="Заказы" FontSize="20" Height="30" Margin="5 5 5 0" Name="BtnOrder" Click="BtnOrder_Click"/>
             <Button Style="{StaticResource CustomButtonStyle}" Height="30" Content="Компании" FontSize="20"  Margin="5 5 5 0" Name="BtnCompany" Click="BtnCompany_Click"/>
@@ -23,7 +23,8 @@
             <Button Style="{StaticResource CustomButtonStyle}" Height="30" Content="Товары" FontSize="20" Margin="5 5 5 0" Name="BtnProduct" Click="BtnProduct_Click"/>
             <Button Style="{StaticResource CustomButtonStyle}" Height="30" Content="Бренды" FontSize="20" Margin="5 5 5 0" Name="BtnBrand" Click="BtnBrand_Click"/>
             <Button Style="{StaticResource CustomButtonStyle}" Height="30" Content="Пользователи" FontSize="20" Margin="5 5 5 0" Name="BtnUser" Click="BtnUser_Click"/>
-            <TextBlock Margin="5,5,5,0" Height="80" Width="150" Name="TxbBlkTimeNow"
+            <Button Style="{StaticResource CustomButtonStyle}" Height="30" Content="История входа" FontSize="20" Margin="5 5 5 0" Name="BtnHistoryLog" Click="BtnHistoryLog_Click"/>
+            <TextBlock Margin="5,0,5,0" Height="80" Width="150" Name="TxbBlkTimeNow"
                        FontSize="60"/>
             <TextBlock Margin="25,0,5,0" Width="110" Name="TxbBlkDateTime"
                        Height="23" FontSize="20"></TextBlock>
