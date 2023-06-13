@@ -93,8 +93,7 @@ namespace CurcaNaCore.Views.AdminPage.AddAdminPage {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/CurcaNaCore;V1.0.0.0;component/views/adminpage/addadminpage/productaddwindow.xam" +
-                    "l", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/CurcaNaCore;component/views/adminpage/addadminpage/productaddwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\..\Views\AdminPage\AddAdminPage\ProductAddWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

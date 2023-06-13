@@ -6,19 +6,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
+using CurcaNaCore.Models;
 using Newtonsoft.Json;
 
 namespace CurcaNaCore.Views
 {
-    /// <summary>
-    /// Логика взаимодействия для AutorizationWindow.xaml
-    /// </summary>
     public partial class AutorizationWindow : Window
     {
         public AutorizationWindow()
@@ -45,8 +37,10 @@ namespace CurcaNaCore.Views
 
                     if (users.Count > 0)
                     {
+                        int? userId = users[0].id;
                         string role = users[0].role;
                         bool isFirstLogin = users[0].isFirstLogin;
+                        string userStatus = users[0].userStatus;
 
                         if (role == "Администратор")
                         {
@@ -54,15 +48,20 @@ namespace CurcaNaCore.Views
                             mainWindow.Show();
                             Close();
                         }
-                        else if (isFirstLogin)
+                        else if (userStatus == "Заблокирован")
                         {
-                            NewPasswordWindow newPasswordWindow = new NewPasswordWindow();
+                            MessageBox.Show("Ваш аккаунт заблокирован");
+                        }
+                        else if (isFirstLogin && userId.HasValue)
+                        {
+                            NewPasswordWindow newPasswordWindow = new NewPasswordWindow(userId.Value);
                             newPasswordWindow.Show();
                             Close();
                         }
-                        else
+
+                        else if (role == "Пользователь")
                         {
-                            MessageBox.Show("У вас нет доступа к главной странице.");
+                            MessageBox.Show("Вы вошли как пользователь");
                         }
                     }
                 }

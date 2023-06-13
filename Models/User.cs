@@ -20,6 +20,7 @@ namespace CurcaNaCore.Models
         public int? IdUserStatus { get; set; }
         public string? FullName { get; set; }
         public bool? IsFirstLogin { get; set; }
+       
 
         public virtual Role? IdRoleNavigation { get; set; }
         public virtual UserActivity? IdUserActivityNavigation { get; set; }

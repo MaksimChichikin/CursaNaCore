@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Project\CurcaNaCore\App.xaml
-13816555901
+16-1922599241
 
-32-1263297608
-214120263998
-MainWindow.xaml;Views\AdminPage\AddAdminPage\BrandAddWindow.xaml;Views\AdminPage\AddAdminPage\CompanyAddWindow.xaml;Views\AdminPage\AddAdminPage\DeliveryAddWindow.xaml;Views\AdminPage\AddAdminPage\OrderAddWindow.xaml;Views\AdminPage\AddAdminPage\ProductAddWindow.xaml;Views\AdminPage\AddAdminPage\TaskAddWindow.xaml;Views\AdminPage\BrandPage.xaml;Views\AdminPage\CompanyPage.xaml;Views\AdminPage\DeliveryPage.xaml;Views\AdminPage\OrderPage.xaml;Views\AdminPage\ProductPage.xaml;Views\AdminPage\TaskPage.xaml;
+35-1291974397
+215-1712834079
+MainWindow.xaml;Views\AdminPage\AddAdminPage\BrandAddWindow.xaml;Views\AdminPage\AddAdminPage\CompanyAddWindow.xaml;Views\AdminPage\AddAdminPage\DeliveryAddWindow.xaml;Views\AdminPage\AddAdminPage\OrderAddWindow.xaml;Views\AdminPage\AddAdminPage\ProductAddWindow.xaml;Views\AdminPage\AddAdminPage\TaskAddWindow.xaml;Views\AdminPage\BrandPage.xaml;Views\AdminPage\CompanyPage.xaml;Views\AdminPage\DeliveryPage.xaml;Views\AdminPage\OrderPage.xaml;Views\AdminPage\ProductPage.xaml;Views\AdminPage\TaskPage.xaml;Views\AdminPage\UserPage.xaml;Views\AutorizationWindow.xaml;Views\NewPasswordWindow.xaml;
 
 False
 

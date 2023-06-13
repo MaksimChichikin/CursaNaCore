@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:CurcaNaCore"
              xmlns:sys="clr-namespace:System;assembly=mscorlib"
-             StartupUri="MainWindow.xaml">
+             StartupUri="./Views/AutorizationWindow.xaml">
     <Application.Resources>
         <Style TargetType="{x:Type TextBox}" x:Key="PlaceholderStyle">
             <Setter Property="Foreground" Value="Black"/>
@@ -140,5 +140,6 @@
                 </Setter.Value>
             </Setter>
         </Style>
+
     </Application.Resources>
 </Application>

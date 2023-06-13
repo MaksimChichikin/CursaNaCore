@@ -71,5 +71,10 @@ namespace CurcaNaCore
         {
             NavigationClass.frmNav.Navigate(new BrandPage());
         }
+
+        private void BtnUser_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationClass.frmNav.Navigate(new UserPage());
+        }
     }
 }

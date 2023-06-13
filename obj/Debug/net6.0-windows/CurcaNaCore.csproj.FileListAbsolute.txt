@@ -77,3 +77,10 @@ C:\Project\CurcaNaCore\obj\Debug\net6.0-windows\Views\AdminPage\AddAdminPage\Tas
 C:\Project\CurcaNaCore\obj\Debug\net6.0-windows\Views\AdminPage\AddAdminPage\OrderAddWindow.baml
 C:\Project\CurcaNaCore\obj\Debug\net6.0-windows\Views\AdminPage\AddAdminPage\ProductAddWindow.baml
 C:\Project\CurcaNaCore\obj\Debug\net6.0-windows\Views\AdminPage\AddAdminPage\TaskAddWindow.baml
+C:\Project\CurcaNaCore\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Project\CurcaNaCore\obj\Debug\net6.0-windows\Views\AutorizationWindow.g.cs
+C:\Project\CurcaNaCore\obj\Debug\net6.0-windows\Views\NewPasswordWindow.g.cs
+C:\Project\CurcaNaCore\obj\Debug\net6.0-windows\Views\AutorizationWindow.baml
+C:\Project\CurcaNaCore\obj\Debug\net6.0-windows\Views\NewPasswordWindow.baml
+C:\Project\CurcaNaCore\obj\Debug\net6.0-windows\Views\AdminPage\UserPage.g.cs
+C:\Project\CurcaNaCore\obj\Debug\net6.0-windows\Views\AdminPage\UserPage.baml

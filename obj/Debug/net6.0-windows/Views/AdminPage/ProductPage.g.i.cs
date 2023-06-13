@@ -101,7 +101,7 @@ namespace CurcaNaCore.Views.AdminPage {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/CurcaNaCore;V1.0.0.0;component/views/adminpage/productpage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/CurcaNaCore;component/views/adminpage/productpage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Views\AdminPage\ProductPage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

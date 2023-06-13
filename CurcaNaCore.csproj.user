@@ -43,6 +43,9 @@
     <Compile Update="Views\AdminPage\TaskPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\AdminPage\UserPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\AutorizationWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -88,6 +91,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\AdminPage\TaskPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\AdminPage\UserPage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\AutorizationWindow.xaml">

@@ -1,16 +1,19 @@
 ﻿
 FC:\Project\CurcaNaCore\App.xaml;;
 FC:\Project\CurcaNaCore\MainWindow.xaml;;
-FC:\Project\CurcaNaCore\Views\AdminPage\OrderPage.xaml;;
-FC:\Project\CurcaNaCore\Views\AdminPage\DeliveryPage.xaml;;
-FC:\Project\CurcaNaCore\Views\AdminPage\BrandPage.xaml;;
-FC:\Project\CurcaNaCore\Views\AdminPage\CompanyPage.xaml;;
-FC:\Project\CurcaNaCore\Views\AdminPage\TaskPage.xaml;;
-FC:\Project\CurcaNaCore\Views\AdminPage\ProductPage.xaml;;
 FC:\Project\CurcaNaCore\Views\AdminPage\AddAdminPage\BrandAddWindow.xaml;;
 FC:\Project\CurcaNaCore\Views\AdminPage\AddAdminPage\CompanyAddWindow.xaml;;
 FC:\Project\CurcaNaCore\Views\AdminPage\AddAdminPage\DeliveryAddWindow.xaml;;
 FC:\Project\CurcaNaCore\Views\AdminPage\AddAdminPage\OrderAddWindow.xaml;;
 FC:\Project\CurcaNaCore\Views\AdminPage\AddAdminPage\ProductAddWindow.xaml;;
 FC:\Project\CurcaNaCore\Views\AdminPage\AddAdminPage\TaskAddWindow.xaml;;
+FC:\Project\CurcaNaCore\Views\AdminPage\BrandPage.xaml;;
+FC:\Project\CurcaNaCore\Views\AdminPage\CompanyPage.xaml;;
+FC:\Project\CurcaNaCore\Views\AdminPage\DeliveryPage.xaml;;
+FC:\Project\CurcaNaCore\Views\AdminPage\OrderPage.xaml;;
+FC:\Project\CurcaNaCore\Views\AdminPage\ProductPage.xaml;;
+FC:\Project\CurcaNaCore\Views\AdminPage\TaskPage.xaml;;
+FC:\Project\CurcaNaCore\Views\AdminPage\UserPage.xaml;;
+FC:\Project\CurcaNaCore\Views\AutorizationWindow.xaml;;
+FC:\Project\CurcaNaCore\Views\NewPasswordWindow.xaml;;
 
