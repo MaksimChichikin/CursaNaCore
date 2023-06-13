@@ -1,0 +1,35 @@
+﻿<Window x:Class="CurcaNaCore.Views.AdminPage.AddAdminPage.CompanyAddWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CurcaNaCore.Views.AdminPage.AddAdminPage"
+        mc:Ignorable="d"
+             Title="ЮниКосметик" MinHeight="200" MinWidth="250" Height="200" Width="250" WindowStartupLocation="CenterScreen" Icon="/Resource/Imagine/myicon.png" >
+    <Grid Background="#e9e9e9">
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Width="200" >
+            <GroupBox Header="Введите название компании:" BorderThickness="0"
+                      >
+                <TextBox 
+                    Name="TxbCompanyName"/>
+            </GroupBox>
+
+            <GroupBox Header="Введите адрес компании:" BorderThickness="0"
+                     >
+                <TextBox 
+                    Name="TxbCompanyAddress"/>
+            </GroupBox>
+            <GroupBox Header="Введите телефон компании:" BorderThickness="0"
+                      >
+                <TextBox 
+                    Name="TxbCompanyPhone"/>
+            </GroupBox>
+            <Button Style="{StaticResource CustomButtonStyle}" Click="BtnAddCompany_Click"
+                Width="150"
+                    Height="25"
+                Name="BtnAddCompany"
+                Content="Добавить компанию"
+                BorderThickness="0"/>
+        </StackPanel>
+    </Grid>
+</Window>
