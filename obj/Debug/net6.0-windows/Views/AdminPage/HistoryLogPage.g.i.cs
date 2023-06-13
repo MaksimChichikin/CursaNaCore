@@ -77,7 +77,7 @@ namespace CurcaNaCore.Views.AdminPage {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/CurcaNaCore;component/views/adminpage/historylogpage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/CurcaNaCore;V1.0.0.0;component/views/adminpage/historylogpage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Views\AdminPage\HistoryLogPage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
